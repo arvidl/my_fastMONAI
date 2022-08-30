@@ -32,6 +32,16 @@ If you want to install an editable version of fastMONAI run:
 - `git clone https://github.com/MMIV-ML/fastMONAI`
 - `pip install -e 'fastMONAI[dev]'`
 
+### Using a conda environment
+
+- `git clone https://github.com/MMIV-ML/fastMONAI`
+-  `conda create -n fastmonai python=3.9`
+-  `conda activate fastmonai`
+-  `pip install -e 'fastMONAI[dev]'`
+-  `conda install jupyter`
+-  `conda install nbconvert`
+
+
 ## How to use fastMONAI
 
 The best way to get started using fastMONAI is to read the paper and
