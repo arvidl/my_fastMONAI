@@ -37,9 +37,10 @@ If you want to install an editable version of fastMONAI run:
 - `git clone https://github.com/MMIV-ML/fastMONAI`
 -  `conda create -n fastmonai python=3.9`
 -  `conda activate fastmonai`
--  `pip install -e 'fastMONAI[dev]'`
+-  `pip install -e 'fastMONAI[dev]'` or `pip install -e 'my_fastMONAI[dev]'`
 -  `conda install jupyter`
 -  `conda install nbconvert`
+-  `conda install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch`   (to get A5000 GPU running)
 
 
 ## How to use fastMONAI
